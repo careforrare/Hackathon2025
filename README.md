@@ -25,5 +25,5 @@ Final submission of the Hackathon results will happen via [FTAPI](https://datatr
 __All results have to be handed in 12:00 on December 6th__
 
 ## Contact
-Join the [Slack](https://join.slack.com/t/hackathon2025gruppe/shared_invite/zt-3k6cgyvgy-ccsf6fbIT6Yth4g2UqHtkw).
+Join the [Slack](https://join.slack.com/t/hackathon2025gruppe/shared_invite/zt-3k6cgyvgy-ccsf6fbIT6Yth4g2UqHtkw). (Slack invite is depricated, please contact Henrik directly).
 Should you have any questions, contact [Henrik Otterstedt](mailto:Henrik.Otterstedt@med.uni-muenchen.de) or open an issue.
