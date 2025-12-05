@@ -125,8 +125,8 @@ WITH bs, toInteger(1 + rand() * 7) as relCount
 CALL {
   WITH bs, relCount
   MATCH (c:Clinical_variable)
-  WHERE rand() toFloat(relCount) / 512106
+  WHERE rand() < toFloat(relCount) / 512106
   RETURN c ORDER BY rand() LIMIT 8
 }
-CREATE (bs)-[:HAS_DISEASE {genetically_confirmed: CASE WHEN rand() < 0.4 THE 'True' ELSE 'False' END}]->(c)
+CREATE (bs)-[:HAS_DISEASE {genetically_confirmed: CASE WHEN rand() < 0.4 THEN 'True' ELSE 'False' END}]->(c)
 RETURN COUNT(*) AS SNOMED_RELATIONSHIPS;
